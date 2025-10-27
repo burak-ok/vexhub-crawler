@@ -41,18 +41,12 @@ pkg:
     - namespace: github.com/harvester
       name: vm-import-controller
       url: https://github.com/rancher/vexhub/tree/main/pkg/golang/github.com/harvester/vm-import-controller
-    - namespace: github.com/harvester
-      name: webhook
-      url: https://github.com/rancher/vexhub/tree/main/pkg/golang/github.com/harvester/webhook
     - namespace: github.com/k3s-io
       name: helm-set-status
       url: https://github.com/rancher/vexhub/tree/main/pkg/golang/github.com/k3s-io/helm-set-status
     - namespace: github.com/k3s-io
       name: k3s
       url: https://github.com/rancher/vexhub/tree/main/pkg/golang/github.com/k3s-io/k3s
-    - namespace: github.com/k3s-io
-      name: kine
-      url: https://github.com/rancher/vexhub/tree/main/pkg/golang/github.com/k3s-io/kine
     - namespace: github.com/longhorn
       name: backing-image-manager
       url: https://github.com/rancher/vexhub/tree/main/pkg/golang/github.com/longhorn/backing-image-manager
@@ -137,9 +131,6 @@ pkg:
     - namespace: github.com/rancher
       name: rke2
       url: https://github.com/rancher/vexhub/tree/main/pkg/golang/github.com/rancher/rke2
-    - namespace: github.com/rancher
-      name: support-bundle-kit
-      url: https://github.com/rancher/vexhub/tree/main/pkg/golang/github.com/rancher/support-bundle-kit
     - namespace: github.com/rancher
       name: system-agent
       url: https://github.com/rancher/vexhub/tree/main/pkg/golang/github.com/rancher/system-agent
